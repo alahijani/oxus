@@ -1,0 +1,17 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "Idris",
+
+	"build": {
+        "dockerfile": "idris1.Dockerfile"
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"meraymond.idris-vscode"
+			]
+		}
+	}
+}
